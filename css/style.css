@@ -237,12 +237,8 @@ footer select{
     color: white;
 }
 
-.list{
-    float: left;
-    width: calc(80%-200px);
-}
-
 .first-indentation > li{
+    float: right;
     display: inline-block;
     padding-right: 5em;
 
