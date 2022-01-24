@@ -8,6 +8,7 @@
 
 .centering{
     margin: 0 auto;
+    width: 70vw;
 }
 
 .inline-block{
@@ -31,7 +32,7 @@ header{
 }
 
 .container-header{
-    width: 70vw;
+
     text-align: center;
 }
 
@@ -81,6 +82,7 @@ li > a{
 
 .main-header{
     width: 40vw;
+    margin: 0 auto;
 
     text-align: center;
 
@@ -121,3 +123,74 @@ li > a{
     color: white;
     text-decoration: none;
 }
+
+.section{
+
+    padding: 140px 0;
+}
+
+.container-main img{
+    float: left;
+
+    width: 50%;
+}
+
+.text{
+    float: left;
+
+    width: 50%;
+    padding: 0 10%;
+}
+
+.text h1{
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.text p{
+    font-size: 24px;
+}
+
+.section2{
+    background-color: #f6f6f6;
+}
+
+.section4{
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.section4 img{
+    width: 100%;
+}
+
+.section4 h1{
+    font-size: 55px;
+    margin: 30px 0;
+}
+
+.section4 p{
+    font-size: 24px;
+    padding: 0 180px;
+}
+
+.stars img{
+    width: 650px;
+}
+
+.section4 h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.section4 a{
+    margin-right: 3em;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    font-size: 20px;
+
+    background-color: #8da1e1;
+    color: white;
+    text-decoration: none;
+}
+
