@@ -202,6 +202,10 @@ footer{
     padding-top: 100px;
 }
 
+.container-float{
+    margin-bottom: 50px;
+}
+
 .socials{
     float: left;
     width: 20%;
@@ -233,7 +237,7 @@ footer select{
     color: white;
 }
 
-footer > ul{
+.list{
     float: left;
     width: calc(80%-200px);
 }
@@ -257,4 +261,27 @@ footer > ul{
     font-size: 20px;
 
     color: white;
+}
+
+.sign-in{
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+
+.sign-in img{
+    float: left;
+}
+
+.sign-in a{
+    float: right;
+
+    padding: .7em;
+    border-radius: 1.5em;
+
+    font-size: 20px;
+
+    background-color: #8da1e1;
+    color: white;
+    text-decoration: none;
+
 }
