@@ -259,6 +259,11 @@ footer select{
     color: white;
 }
 
+hr{
+    background-color: #8da1e1;
+    border-color: #8da1e1;
+}
+
 .sign-in{
     margin-top: 30px;
     padding-bottom: 80px;
