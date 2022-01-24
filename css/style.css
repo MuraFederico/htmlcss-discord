@@ -1,6 +1,123 @@
 *{
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
 }
 
+
+.centering{
+    margin: 0 auto;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.clear-fix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 600px;
+    padding-top: 1.5rem;
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeatS;
+}
+
+.container-header{
+    width: 70vw;
+    text-align: center;
+}
+
+nav{
+    /* float: left; */
+    max-width: 60%;
+    
+}
+
+ul{
+    font-size: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+li > a{ 
+    vertical-align: middle;
+
+    padding: 2em;
+
+    color: white;
+    
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.container-header img{
+    float: left;
+    vertical-align: middle;
+}
+
+.container-header > a{
+    float: right;
+    vertical-align: middle;
+
+    padding: .7em;
+    border-radius: 1.5em;
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+}
+
+.main-header{
+    width: 40vw;
+
+    text-align: center;
+
+    color: white;
+}
+
+.main-header h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    font-size: 55px;
+}
+
+.main-header p{
+    margin-bottom: 50px;
+
+    font-size: 24px;
+}
+
+.download{
+    margin-right: 3em;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    font-size: 20px;
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+}
+
+.open{
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    font-size: 20px;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
